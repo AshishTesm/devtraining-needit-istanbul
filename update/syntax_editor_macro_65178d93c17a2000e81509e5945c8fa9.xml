@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>Adds a try/catch statement</comments>
+        <name>vartry</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>jloftas</sys_created_by>
+        <sys_created_on>2012-06-28 16:52:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>65178d93c17a2000e81509e5945c8fa9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>vartry</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>syntax_editor_macro_65178d93c17a2000e81509e5945c8fa9</sys_update_name>
+        <sys_updated_by>jloftas</sys_updated_by>
+        <sys_updated_on>2012-07-16 11:26:04</sys_updated_on>
+        <text>try&#13;
+  {&#13;
+  //Run some code here&#13;
+  $0&#13;
+  }&#13;
+catch(err)&#13;
+  {&#13;
+  //Handle errors here&#13;
+   gs.log('Error detected in function, error message is ' + err.message);&#13;
+  }</text>
+    </syntax_editor_macro>
+</record_update>
